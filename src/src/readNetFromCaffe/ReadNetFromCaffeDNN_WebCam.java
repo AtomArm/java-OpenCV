@@ -62,7 +62,7 @@ public class ReadNetFromCaffeDNN_WebCam {
 
                 double confidence = detection[2];
 
-                if (confidence > 0.5) { // ajuste se necessário
+                if (confidence > 0.2) { // ajuste se necessário
                     faceCount++;
                     int x1 = (int) (detection[3] * frame.cols());
                     int y1 = (int) (detection[4] * frame.rows());

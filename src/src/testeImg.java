@@ -7,7 +7,7 @@ import org.opencv.imgcodecs.Imgcodecs;
 import org.opencv.imgproc.Imgproc;
 import org.opencv.objdetect.CascadeClassifier;
 
-public class teste {
+public class testeImg {
     public static void main(String[] args) {
         // Carrega a biblioteca nativa do OpenCV
         System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
