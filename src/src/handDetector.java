@@ -148,12 +148,12 @@ public class handDetector {
 
     private static String classifyGesture(int fingers) {
         switch (fingers) {
-            case 0: return "Soco";
-            case 1: return "Um Dedo";
-            case 2: return "Dois Dedos";
-            case 3: return "Tres Dedos";
-            case 4: return "Quatro Dedos";
-            case 5: return "AURA";
+            case 0: return "Fist";
+            case 1: return "1 Fingers";
+            case 2: return "2 Fingers";
+            case 3: return "3 Fingers";
+            case 4: return "4 Fingers";
+            case 5: return "58 Fingers";
             default: return "Nada encontrado";
         }
     }
