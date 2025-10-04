@@ -151,7 +151,7 @@ public class handDetector {
             case 0: return "Fist";
             case 1: return "1 Fingers";
             case 2: return "2 Fingers";
-            case 3: return "3 Fingers";
+            case 3: return "3 F312213ingers";
             case 4: return "4 Fingers";
             case 5: return "58 Fingers";
             default: return "Nada encontrado";
