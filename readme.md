@@ -6,7 +6,7 @@ Este projeto utiliza a biblioteca OpenCV para Java. Siga os passos abaixo para c
 
 - Java 21 instalado
 - IntelliJ IDEA
-- OpenCV 4.12.0 (arquivo `opencv-4120.jar` e `opencv_java4120.dll`)
+- OpenCV 4.12.0 (arquivo `opencv-4120.jar` e `opencv_java4120.dll`) que está na pasta resources desse projeto
 
 ## Estrutura esperada
 
@@ -20,10 +20,10 @@ Este projeto utiliza a biblioteca OpenCV para Java. Siga os passos abaixo para c
     - Selecione sua configuração de execução.
     - No campo **VM options**, adicione:
       ```
-      -Djava.library.path=C:\Users\maria\OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA\Projetos\Robótica\Braço Robótico\Repos\JavaOpenCV\modules\opencv-4120
+      -Djava.library.path=-Djava.library.path=\D:\Users\Enzo HD\Github\Repos\Atom\java-OpenCV\modules\opencv-4120
       ```
     - Salve e execute.
-
+    - Ou na pasta que você criou.
 3. **Certifique-se de que o arquivo `opencv_java4120.dll` está na pasta acima.**
 
 ## Execução via terminal
