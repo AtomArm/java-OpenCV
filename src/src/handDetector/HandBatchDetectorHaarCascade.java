@@ -16,7 +16,7 @@ public class HandBatchDetectorHaarCascade {
 
     static String BASE_PATH = "src/src/HandDetector/benchmark/";
     static String XML_PATH = BASE_PATH + "resources/hand.xml";
-    static String INPUT_DIR = BASE_PATH + "images/allimgs";
+    static String INPUT_DIR = BASE_PATH + "images/dataset";
     static String OUTPUT_CSV = BASE_PATH + "batch_results_haar.csv";
     static String OUTPUT_IMG_DIR = BASE_PATH + "images/processed_haar/";
 

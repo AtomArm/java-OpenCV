@@ -16,7 +16,7 @@ public class HandBatchDetector extends HandDetector{
     static String PATH = "src/src/HandDetector/benchmark/images/";
 
     public static void main(String[] args) throws IOException {
-        String inputDir = PATH + "allimgs";
+        String inputDir = PATH + "dataset";
         String outputCsv = PATH + "batch_results.csv";
 
         try (PrintWriter csvWriter = new PrintWriter(new FileWriter(outputCsv))) {
